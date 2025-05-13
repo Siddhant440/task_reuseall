@@ -10,10 +10,10 @@ A Flutter-based screen designed for delivery riders to easily visualize their pi
 This app screen allows riders to:
 - View their *current location* on a map.
 - See *pickup points* and a *warehouse location* via markers.
-- Follow a *complete route* connecting all pickups (in order) and ending at the warehouse.
+- Follow a *complete route* connecting all pickups and ending at the warehouse.
 - Use a *"Navigate"* button to:
-  - Open the route in *Map*, or
-  - Trigger *in-app navigation* (optional).
+  - Open the route in Map, or
+  - Trigger *in-app navigation*.
 
 ---
 
@@ -28,8 +28,31 @@ This app screen allows riders to:
   - Ending at the warehouse
 - 'Navigate' button functionality:
   - Opens *Maps* with route using url_launcher
-  - (Optional) Supports *in-app navigation*
-- Optional: Show *distance/time to warehouse* (mocked or API-based)
+  - Supports *in-app navigation*
+- Show *distance/time to warehouse*
+
+---
+
+### Prerequisites
+- Install Flutter
+- Install VS Code or Android Studio
+- Enable Developer Mode on your physical device if using wireless debugging
+
+### Clone the Repository
+- bash
+  git clone https://github.com/shubhnesh/Task-Pragati.git
+
+### Install Dependencies
+- bash
+  pub get
+
+### Run the App
+- bash
+  flutter run
+
+### Check if the device is recognized:
+- bash
+  flutter devices
 
 ---
 
