@@ -79,12 +79,14 @@ This app screen allows riders to:
   final warehouseLocation = LatLng(12.961115, 77.600000);
 
 
-https://github.com/Siddhant440/task_reuseall/blob/main/screenshots/1.jpg
-    <p align="center">
 
-      <img src="https://github.com/Siddhant440/task_reuseall/blob/main/Screenshots/2.jpg" width="250" style="margin-right: 20px">
+<p align="center">
+  
+<img src="https://github.com/Siddhant440/task_reuseall/blob/main/Screenshots/2.jpg" width="250" style="margin-right: 20px">
+
+<img src="https://github.com/Siddhant440/task_reuseall/blob/main/Screenshots/2.jpg" width="250" style="margin-right: 20px">
 
 <img src="https://github.com/Siddhant440/task_reuseall/blob/main/Screenshots/3.jpg" width="250" style="margin-right: 20px">
 
-      <img src="https://github.com/Siddhant440/task_reuseall/blob/main/Screenshots/4.jpg" width="250" style="margin-right: 20px">
-    </p>
+<img src="https://github.com/Siddhant440/task_reuseall/blob/main/Screenshots/4.jpg" width="250" style="margin-right: 20px">
+</p>
