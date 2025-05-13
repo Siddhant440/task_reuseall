@@ -50,35 +50,34 @@ This app screen allows riders to:
 - bash
   flutter devices
 
----
+  ---
+  
+  ## Sample Data
+  
+  ```dart
+  final pickups = [
+    {
+      "id": 1,
+      "location": LatLng(12.971598, 77.594566),
+      "time_slot": "9AM-10AM",
+      "inventory": 5,
+    },
+    {
+      "id": 2,
+      "location": LatLng(12.972819, 77.595212),
+      "time_slot": "9AM-10AM",
+      "inventory": 3,
+    },
+    {
+      "id": 3,
+      "location": LatLng(12.963842, 77.609043),
+      "time_slot": "10AM-11AM",
+      "inventory": 7,
+    },
+  ];
+  
+  final warehouseLocation = LatLng(12.961115, 77.600000);
 
-## Sample Data
-
-```dart
-final pickups = [
-  {
-    "id": 1,
-    "location": LatLng(12.971598, 77.594566),
-    "time_slot": "9AM-10AM",
-    "inventory": 5,
-  },
-  {
-    "id": 2,
-    "location": LatLng(12.972819, 77.595212),
-    "time_slot": "9AM-10AM",
-    "inventory": 3,
-  },
-  {
-    "id": 3,
-    "location": LatLng(12.963842, 77.609043),
-    "time_slot": "10AM-11AM",
-    "inventory": 7,
-  },
-];
-
-final warehouseLocation = LatLng(12.961115, 77.600000);
-
----
 
 https://github.com/Siddhant440/task_reuseall/blob/main/screenshots/1.jpg
     <p align="center">
